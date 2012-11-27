@@ -1,0 +1,121 @@
+@media screen and (min-width: 700px) {
+	$color-rest: true;
+	
+	.quick-about {
+		margin-left: 25%;
+		margin-top: 30px;
+	}
+
+	.br {
+		display: block;
+	}
+
+	.nav-wrap {
+		margin: 42px 0 25px 0;
+
+		.text-nav li {
+			width: 25%;
+		}
+
+		.about-myself {
+			width: 75%;
+
+			li {
+				width: 33%;
+			}
+		}
+
+		.social-media {
+			margin-top: 0px;
+
+			li a {
+				@include font-size(1.3rem);
+				text-indent: 0;
+				color: #E9AB92;
+				background-image: none;
+				position: relative;
+				overflow: visible;
+
+				&::after {
+					content: "";
+					position: absolute;
+					background: url("/img/social-icons.png") center 9px no-repeat;
+					height: 15px;
+					width: 15px;
+					top: 13px;
+
+					.svg & {
+						background: url("/img/social-icons.svg") center 9px no-repeat;
+					}
+				}
+
+				&.email {
+					&::after {
+						left: 136px;
+						background-position: -2px -395px;
+					}
+				}
+
+				&.twitter {
+					text-indent: -2px;
+
+					&::after {
+						left: 58px;
+						background-position: -2px -495px;
+					}
+				}
+
+				&.dribbble {
+					text-indent: -2px;
+
+					&::after {
+						left: 67px;
+						background-position: -2px -445px;
+					}
+				}
+
+				&.linkedin {
+					text-indent: -2px;
+
+					&::after {
+						left: 66px;
+						background-position: -2px -545px;
+					}
+				}
+			}
+
+		}
+	}
+
+	.post {
+		.side-bar p {
+			max-width: 50%;
+			float: left;
+		}
+
+		.list {
+			float: left;
+			max-width: 25%;
+			margin-top: 0;
+
+			h2 {
+//				margin-top: 20px;
+				margin-bottom: 21px;
+				margin-left: 20px;
+			}
+
+			ul {
+				margin-left: 20px;
+			}
+
+			li {
+				@include line-height(2.1rem);
+			}
+		}
+	}
+
+
+	body {
+//		background: #666;
+	}
+}

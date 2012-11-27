@@ -1,0 +1,52 @@
+@media screen and (min-width: 500px) {
+	$color-rest: true;
+
+	.nav-wrap {
+		.text-nav li {
+			width: 33%;
+		}
+	}
+
+	.quick-about {
+		margin-left: 33%;
+		margin-top: 30px;
+
+		.logo {
+			position: absolute;
+			left: 20px;
+			width: auto;
+			background-position: left top;
+			background-size: 100% auto;
+			height: 80px;
+			width: 150px;
+			margin-top: 8px;
+		}
+
+		.tagline {
+			margin-top: 52px;
+		}
+	}
+
+	.post {
+		.side-bar p {
+			max-width: 66%;
+		}
+
+		.list {
+			max-width: 33%;
+		}
+	}
+
+	#resume {
+		.skills {
+			.halfsies {
+				width: 25%;
+			}
+		}
+
+		p {
+			max-width: 75%;
+//			background: #f0f;
+		}
+	}
+}

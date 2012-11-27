@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bad Request :(</title>
+    
+    <link href="http://www.zachwolf.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="author" content="Zach Wolf, hello@zachwolf.com">
+    <meta name="description" content="Hello, I'm Zach Wolf. I'm a front-end designer and developer from Minneapolis. This is my error page.">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
+    <meta name="google-site-verification" content="wqOzf-0bqtP_Vv5KgSIm_kp36eovpOouwGoCYSdWRko" />
+    <meta name="keywords" content="Bawitdaba da bang a dang diggy diggy, said the boogy, said, up jump the boogy" />
+
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- For third generation iPad Retina Display -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/touch/apple-touch-icon-144x144-precomposed.png" />
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/touch/apple-touch-icon-114x114-precomposed.png" />
+    <!-- For first-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/touch/apple-touch-icon-72x72-precomposed.png" />
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" href="/img/touch/apple-touch-icon-57x57-precomposed.png" />
+    <!-- For nokia devices: -->
+    <link rel="shortcut icon" href="/img/touch/apple-touch-icon.png" />
+
+    <style>
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            background: url("/img/natural_paper.png") fixed center center;
+            padding: 0;
+            margin: 0;
+        }
+
+        @font-face {
+            font-family: 'SommetSlabBoldItalic';
+            src: url("/fonts/sommetslabbolditalic-webfont.eot");
+            src: url("/fonts/sommetslabbolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/sommetslabbolditalic-webfont.woff") format("woff"), url("/fonts/sommetslabbolditalic-webfont.ttf") format("truetype"), url("/fonts/sommetslabbolditalic-webfont.svg#SommetSlabBoldItalic") format("svg");
+            font-weight: normal;
+            font-style: normal; 
+        }
+
+        @font-face {
+            font-family: 'SommetSlabBold';
+            src: url("/fonts/sommetslabbold-webfont.eot");
+            src: url("/fonts/sommetslabbold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/sommetslabbold-webfont.woff") format("woff"), url("/fonts/sommetslabbold-webfont.ttf") format("truetype"), url("/fonts/sommetslabbold-webfont.svg#SommetSlabBold") format("svg");
+            font-weight: normal;
+            font-style: normal; 
+        }
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container {
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-family: "SommetSlabBold", serif;
+            color: #D46D3F;
+            position: absolute;
+            background: url('/img/speech.png') no-repeat top center;
+
+            width: 117px;
+            height: 72px;
+            padding-top: 15px;
+            right: 63%;
+
+            top: 15%;
+            line-height: 44px;
+        }
+
+        p {
+            font-family: "SommetSlabBold", serif;
+            color: #D46D3F;
+            position: absolute;
+            background: url('/img/speech.png') no-repeat bottom right;
+            width: 80px;
+            left: 75%;
+            top: 30%;
+            height: 40px;
+            padding-top: 20px;
+        }
+
+        a {
+            display: block;
+            background: #fff; 
+            position: absolute;
+            line-height: 3rem;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            font-family: "SommetSlabBold", serif;
+            text-decoration: none;
+            z-index: 1;
+            color: #541C17;
+
+            font-size: 1rem;
+            -webkit-box-shadow:0 0 5px #ECCAA8;
+            -moz-box-shadow:0 0 5px #ECCAA8;
+            box-shadow:0 0 5px #ECCAA8;
+        }
+
+        h2 {
+            display: inline-block;
+            font-size: 1rem;
+            color: #D46D3F;
+        }
+    </style>
+</head>
+<body>
+    <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+    <div class="container">
+        <a href="http://zachwolf.com">Back to the <h2>zachwolf.com</h2></a>
+        <h1>
+            400 :(
+        </h1>
+        <p>
+            Oh, no...
+        </p>
+        <img src="/img/zach-wolf-sadsies.png" alt="Zach Wolf, being sad because you broke his web site." />
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@mixin fonts() {
+  @font-face {
+    font-family: 'SommetSlabBold';
+    src: url("/fonts/sommetslabbold-webfont.eot");
+    src: url("/fonts/sommetslabbold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/sommetslabbold-webfont.woff") format("woff"), url("/fonts/sommetslabbold-webfont.ttf") format("truetype"), url("/fonts/sommetslabbold-webfont.svg#SommetSlabBold") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'SommetSlabBoldItalic';
+    src: url("/fonts/sommetslabbolditalic-webfont.eot");
+    src: url("/fonts/sommetslabbolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/sommetslabbolditalic-webfont.woff") format("woff"), url("/fonts/sommetslabbolditalic-webfont.ttf") format("truetype"), url("/fonts/sommetslabbolditalic-webfont.svg#SommetSlabBoldItalic") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'SommetSlabItalic';
+    src: url("/fonts/sommetslabitalic-webfont.eot");
+    src: url("/fonts/sommetslabitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/sommetslabitalic-webfont.woff") format("woff"), url("/fonts/sommetslabitalic-webfont.ttf") format("truetype"), url("/fonts/sommetslabitalic-webfont.svg#SommetSlabItalic") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+
+  @font-face {
+    font-family: 'SommetSlabRegular';
+    src: url("/fonts/sommetslabregular-webfont.eot");
+    src: url("/fonts/sommetslabregular-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/sommetslabregular-webfont.woff") format("woff"), url("/fonts/sommetslabregular-webfont.ttf") format("truetype"), url("/fonts/sommetslabregular-webfont.svg#SommetSlabRegular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+}

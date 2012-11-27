@@ -1,0 +1,14 @@
+@mixin font($fs: 1.4rem, $lh: 2rem, $ff: "sans-serif") {
+	font: #{remtopx($fs)}/#{remtopx($lh)} $ff;
+	font: #{$fs}/#{$lh} $ff;
+}
+
+@mixin font-size($fs: 1.4rem) {
+	font-size: remtopx($fs);
+	font-size: $fs;
+}
+
+@mixin line-height($rem: 2rem) {
+	line-height: remtopx($rem);
+	line-height: $rem;
+}

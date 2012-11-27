@@ -1,0 +1,495 @@
+/*!
+ * 	Made with love, compressed with SASS. 
+ *
+ * 	http://zachwolf.com/humans.txt
+ *
+ */
+
+@import "wolf";
+@import "ellipsis";
+@import "addins/global";
+
+@import "compass/css3";
+
+@include fonts(); // import the @font-face styles
+
+a {
+	color: $c-brand;
+	font-family: $font-somment-italic;
+	font-size: inherit;
+	text-decoration: none;
+
+	p &:active {
+		text-decoration: underline;
+	}
+}
+
+body {
+	@include font(1.3rem, 2rem, $font-somment-reg);
+	color: $c-text-d;
+}
+
+.post, #header,
+#about h1,
+.bio-wrap .post,
+#contact,
+footer {
+	max-width: 978px !important;
+	margin: 0 auto;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+h1 {
+	@include font(2.591rem, 6.6rem, $font-somment-italic);
+}
+
+.image-replacement {
+	text-indent: -9999px;
+}
+
+.logo {
+	display: block;
+	background-size: 75px auto;
+	height: 40px;
+	width: 84px;
+	margin: 10px auto 12px auto;
+	padding: 5px;
+
+	background: url($logo) no-repeat center bottom;
+
+	.svg & {
+		background-image: url("/img/wolf-logo.svg");
+	}
+}
+
+.tagline {
+	@include font(2rem, 4rem, $font-somment-reg);
+	margin: auto 20px;
+
+	em,
+	.em {
+		color: $c-brand;
+		font-family: $font-somment-bold-italic;
+	}
+}
+
+.news-feed {
+	margin: 50px 20px 30px 20px;
+
+	h3 {
+		@include font(2.591rem, 6.6rem, $font-somment-italic);
+
+		color: $c-brand;
+	}
+
+	h2 {
+		@include font-size(1.7rem);
+		color: $c-brand;
+		font-family: $font-somment-bold-italic;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.feed-section {
+		margin-top: 60px;
+	}
+}
+
+#dribbble {
+
+	ul {
+
+		li {
+			width: 50%;
+			float: left;
+
+			a {
+				margin-right: 20px;
+			}
+
+			&:nth-child(even)  {
+
+				a {
+					margin-left: 10px;
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}
+
+.dribbble-thumb {
+	background: #f0f;
+	margin-bottom: 10px;
+	display: block;
+
+	img {
+		@include box-shadow(0 2px 5px rgba(#000, .5));
+
+		background: #fff;
+		max-width: 100%;
+		display: none;
+	}
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav-wrap {
+	margin-bottom: 7px;
+	margin-top: 42px;
+
+	.row {
+		margin-top: 20px;
+	}
+
+	li {
+		width: 50%;
+		float: left;
+
+		a {
+			@include ellipsis();
+			@include font-size(1.7rem);
+			font-family: $font-somment-bold-italic;
+			display: block;
+			padding: 10px 20px;
+
+			&:focus,
+			&:active {
+				outline: none;
+				text-decoration: none;
+				text-shadow: 1px 1px 0 #f6f6df, 0 0 10px #d76d4a, 0 0 5px #d76d4a;
+			}
+		}
+	}
+
+	h1 {
+		@include font(1.7rem, 3.9rem, $font-somment-bold-italic);
+		margin-left: 20px;
+		margin-top: 1px;
+	}
+
+	.no-js & {
+
+	}
+
+//	.about-myself {
+//		li a {
+//			color: $c-text-l;
+//		}
+//	}
+}
+
+.content-section {
+	margin-top: 40px;
+}
+
+.social-media {
+	margin-top: 18px;
+
+	li {
+		width: 25%;
+
+		a {
+			text-indent: -999rem;
+			background: url("/img/social-icons.png") center 9px no-repeat;
+
+			&.email {
+				background-position: center 9px;
+
+				&:active {
+					background-position: center -41px;
+				}
+			}
+
+			&.twitter {
+				background-position: center -191px;
+
+				&:active {
+					background-position: center -241px;
+				}
+			}
+
+			&.dribbble {
+				background-position: center -91px;
+
+				&:active {
+					background-position: center -141px;
+				}
+			}
+
+			&.linkedin {
+				background-position: center -291px;
+
+				&:active {
+					background-position: center -341px;
+				}
+			}
+		}
+		.svg & a {
+			background-image: url("/img/social-icons.svg");
+		}
+	}
+}
+
+.post .list {
+	margin-top: 32px;
+}
+
+
+
+.post {
+	padding-bottom: 80px;
+
+	.side-bar{
+		margin: auto 20px;
+
+		p {
+			@include font(1.3rem, 2.1rem, $font-somment-reg);
+		}
+	}
+
+	.img-wrap {
+		margin-top: 20px;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+
+.list {
+	width: 50%;
+	float: left;
+
+	h2 {
+		margin-bottom: 20px;
+	}
+
+	li::before {
+		content: "-";
+	}
+}
+
+#resume {
+	@include line-height(2rem);
+	margin: 0 20px 80px 20px;
+
+	h2 {
+		@include font(1.5rem, 2rem, $font-somment-bold);
+
+		margin-top: 60px;
+		display: block;
+		width: 100%;
+		color: $c-brand;
+	}
+
+	h3 {
+		color: $c-brand;
+		margin-top: 40px;
+	}
+
+	.halfsies {
+		float: left;
+		width: 50%;
+	}
+
+	.date {
+		@include font-size(1rem);
+	}
+
+	.section-title {
+		margin: 20px 0;
+
+		&.no-bottom {
+			margin-bottom: 0 !important;
+		}
+
+		&.no-top {
+			margin-top: 0 !important;
+		}
+
+		h4 {
+			display: inline-block;
+		}
+
+		p {
+			display: inline-block;
+		}
+	}
+}
+
+.skills h2 {
+	margin-bottom: 40px;
+}
+
+#contact {
+	margin: 0 auto;
+	padding: 60px 20px 80px 20px;
+
+//	a.email {
+//		@include font(2.1rem, 3.1rem, $font-somment-italic);
+
+//		margin-top: 6px;
+//		display: block;
+//		text-align: center;
+//	}
+}
+
+.fin {
+	text-align: center;
+	margin-top: 300px;
+	margin-bottom: 40px;
+}
+
+.messages {
+	float: left;
+	width: 50%;
+
+	.error {
+		color: $c-error;
+		margin-top: 10px;
+	}
+
+	.success {
+		margin-bottom: 10px;
+		color: $c-success;
+	}
+}
+
+#contactForm {
+	@include pie-clearfix();
+
+	input,
+	textarea {
+		@include border-radius(0);
+		@include box-shadow(none);
+		@include font(1.6rem, 2.1rem, $font-somment-italic);
+
+		border: 0;
+		margin-bottom: 20px;
+		padding: 10px;
+		outline: none;
+
+//		&:last-child {}
+	}
+
+	input {
+		background: #FEF3E0;
+		color: $c-brand;
+
+		&[type=submit] {
+			@include font-size(2rem);
+			float: right;
+			width: 120px;
+		}
+
+		&[type=text],
+		&[type=email] {
+			color: $c-brand;
+			width: 100%;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+	}
+
+	textarea {
+		color: $c-brand;
+		display: block;
+		background: #FEF3E0;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+	span {
+		@include font(1.6rem, 2.1rem, $font-somment-italic);
+		color: rgba($c-brand, .5);
+	}
+}
+
+#about {
+	margin-top: 80px;
+
+	h1 {
+		text-indent: 20px;
+	}
+}
+
+.bio-wrap {
+	.post {
+		margin: 20px;
+	}
+
+	p {
+		margin: 40px auto auto auto;
+		max-width: 400px;
+	}
+}
+
+.date-list {
+	li {
+		display: inline-block;
+	}
+}
+
+#more-resume {
+	width: 100%;	
+	float: left;
+
+	a {
+		display: block;
+	}
+
+	.label {
+		width: 100%;
+		float: none;
+
+		h3 {
+			margin: 0;
+		}
+
+		span {
+			color: $c-text-d;
+		}
+	}
+
+	li {
+		float: left;
+		width: 25%;
+	}
+}
+
+p {
+	@include font(1.3rem, 2.1rem, $font-somment-reg);
+}
+
+.avatar-wrap {
+	background: url('/img/avatar-bg.png') #FEF3E0;
+//	background: #FEF3E0;
+}
+
+.avatar {
+	display: block;
+	margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+   color: rgba($c-brand, .5);
+}
+
+:-moz-placeholder {
+   color: rgba($c-brand, .5);
+}
+
+
+@import "mediaQueries/all";
+@include browser-hacks();
