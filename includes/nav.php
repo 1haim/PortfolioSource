@@ -70,7 +70,7 @@
                         </li>
                         <li>
                             <h2>
-                                <a href="http://dribbble.com/hellozachwolf" class="dribbble" target="_blank">dribbble</a>
+                                <a href="http://dribbble.com/zachwolf" class="dribbble" target="_blank">dribbble</a>
                             </h2>
                         </li>
                         <li>
