@@ -1,5 +1,8 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
     <meta charset="utf-8">
@@ -22,14 +25,14 @@
                      .:          :.
 -->
 
-    <title>The Portfolio of Zach Wolf | Front-end Design &amp; Development | Minneapolis</title>
+    <title>The Portfolio of Zach Wolf | Front-end Development &amp; Design | Minneapolis</title>
     
     <link href="http://www.zachwolf.com/favicon.ico" type="image/x-icon" rel="shortcut icon" />
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <meta name="author" content="Zach Wolf, hello@zachwolf.com">
-    <meta name="description" content="Hello, I'm Zach Wolf. I'm a front-end designer and developer from Minneapolis. This is my portfolio.">
+    <meta name="description" content="Hello, I'm Zach Wolf. I'm a front-end developer and designer from Minneapolis. This is my portfolio.">
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
     <meta name="google-site-verification" content="wqOzf-0bqtP_Vv5KgSIm_kp36eovpOouwGoCYSdWRko" />
     <meta name="keywords" content="Bawitdaba da bang a dang diggy diggy, said the boogy, said, up jump the boogy" />
@@ -45,10 +48,8 @@
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
 
-<!--[if lt IE 7]> <body class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>    <body class="lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>    <body class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <body> <!--<![endif]-->
+
+<body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
     <div id="header">
         <section class="quick-about">
