@@ -1,6 +1,7 @@
-
 error_log
 
 robots.txt
 
 pull.php
+
+*.log
