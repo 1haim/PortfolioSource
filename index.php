@@ -8,7 +8,6 @@
     <meta charset="utf-8">
 
 <!-- 
-    git test 2
     /oooooooooooooooooooooooooooooooooooooooooooooo/
     .hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh.
       +NMMMMyooooooooooooooooooooooooooooooyMMMMN+
