@@ -32,7 +32,7 @@
 
     <meta name="author" content="Zach Wolf, hello@zachwolf.com">
     <meta name="description" content="Hello, I'm Zach Wolf. I'm a front-end developer and designer from Minneapolis. This is my portfolio.">
-    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <meta name="google-site-verification" content="wqOzf-0bqtP_Vv5KgSIm_kp36eovpOouwGoCYSdWRko" />
     <meta name="keywords" content="Bawitdaba da bang a dang diggy diggy, said the boogy, said, up jump the boogy" />
 
